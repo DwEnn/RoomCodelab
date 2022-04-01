@@ -5,6 +5,6 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 
 @Entity(tableName = "word_table")
-data class World(
+data class Word(
     @PrimaryKey @ColumnInfo(name = "word") val word: String
 )
